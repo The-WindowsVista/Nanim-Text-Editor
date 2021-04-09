@@ -2,10 +2,11 @@
 echo Filename?
 read fn
 lc=0
-touch $filename
+touch $fn
 clear
 echo Nanim Text Editor -- editing ""$fn"" -- Press ctrl-c to exit
 lp=0
+cat $fn
 while [ $lp=$lc ]
 do
 read ct
